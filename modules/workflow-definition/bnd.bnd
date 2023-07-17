@@ -1,0 +1,4 @@
+Bundle-Name: workflow-definition
+Bundle-SymbolicName: workflow.definition
+Bundle-Version: 1.0.0
+Export-Package: workflow.definition.api

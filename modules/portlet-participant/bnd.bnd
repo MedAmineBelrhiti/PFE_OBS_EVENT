@@ -1,0 +1,4 @@
+Bundle-Name: portlet-participant
+Bundle-SymbolicName: com.orange.portletParticipant
+Bundle-Version: 1.0.0
+Export-Package: com.orange.constants

@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:event-obs-srv:event-obs-srv-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../event-obs-srv-api/src/main/java"
+}
+
+group = "com.orange"

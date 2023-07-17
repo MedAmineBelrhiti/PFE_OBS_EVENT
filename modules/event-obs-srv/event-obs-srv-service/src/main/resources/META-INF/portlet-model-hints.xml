@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.orange.model.ContactSupport">
+		<field name="uuid" type="String" />
+		<field name="idMessage" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="nom" type="String" />
+		<field name="prenom" type="String" />
+		<field name="entite" type="String" />
+		<field name="objet" type="String" />
+		<field name="email" type="String" />
+		<field name="telephone" type="String" />
+		<field name="message" type="String" />
+	</model>
+	<model name="com.orange.model.DemandEventObs">
+		<field name="uuid" type="String" />
+		<field name="idDemand" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="content" type="String" />
+		<field name="status" type="String" />
+		<field name="firstName" type="String" />
+		<field name="lastName" type="String" />
+	</model>
+	<model name="com.orange.model.EvenementObs">
+		<field name="uuid" type="String" />
+		<field name="idEvent" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="startDate" type="Date" />
+		<field name="endDate" type="Date" />
+		<field name="lieu" type="String" />
+		<field name="description" type="String" />
+		<field name="votingEndDate" type="Date" />
+		<field name="nbrUserMax" type="int" />
+		<field name="nbrUserConfirmed" type="int" />
+		<field name="entity" type="String" />
+		<field name="managerName" type="String" />
+	</model>
+	<model name="com.orange.model.Messaging">
+		<field name="uuid" type="String" />
+		<field name="idMessage" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="content" type="String" />
+		<field name="idEvent" type="long" />
+	</model>
+	<model name="com.orange.model.Transport">
+		<field name="uuid" type="String" />
+		<field name="idTransport" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="collec" type="boolean" />
+		<field name="prive" type="boolean" />
+		<field name="idEvent" type="long" />
+	</model>
+</model-hints>

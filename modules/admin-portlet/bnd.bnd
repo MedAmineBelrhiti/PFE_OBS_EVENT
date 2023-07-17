@@ -1,0 +1,4 @@
+Bundle-Name: admin-portlet
+Bundle-SymbolicName: admin-portlet
+Bundle-Version: 1.0.0
+Export-Package: com.orange.constants

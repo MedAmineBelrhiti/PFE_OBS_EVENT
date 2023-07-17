@@ -1,0 +1,10 @@
+Bundle-Name: event-obs-srv-api
+Bundle-SymbolicName: com.orange.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.orange.exception,\
+	com.orange.model,\
+	com.orange.service,\
+	com.orange.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../event-obs-srv-service/service.xml
